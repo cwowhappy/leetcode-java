@@ -1,3 +1,5 @@
 .idea/
-leetcode.iml
+.gradle/
 target/
+
+leetcode.iml
