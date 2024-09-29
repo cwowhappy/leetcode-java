@@ -1,4 +1,4 @@
-package com.cwowhappy.study.leetcode.easy;
+package org.cwowhappy.study.leetcode.easy;
 
 /**
  * DP问题：

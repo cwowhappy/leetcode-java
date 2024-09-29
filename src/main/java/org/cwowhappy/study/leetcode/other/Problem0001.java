@@ -1,4 +1,4 @@
-package com.cwowhappy.study.leetcode.other;
+package org.cwowhappy.study.leetcode.other;
 
 import java.util.Arrays;
 

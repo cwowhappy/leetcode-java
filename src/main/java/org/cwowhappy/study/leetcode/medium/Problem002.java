@@ -1,4 +1,4 @@
-package com.cwowhappy.study.leetcode.medium;
+package org.cwowhappy.study.leetcode.medium;
 
 /**
  * 考察内容：链表的操作
