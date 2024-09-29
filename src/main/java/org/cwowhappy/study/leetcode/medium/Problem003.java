@@ -1,4 +1,4 @@
-package com.cwowhappy.study.leetcode.medium;
+package org.cwowhappy.study.leetcode.medium;
 
 public class Problem003 {
     public static class Solution {
