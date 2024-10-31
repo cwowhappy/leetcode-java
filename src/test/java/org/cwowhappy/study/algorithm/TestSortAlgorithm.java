@@ -1,6 +1,7 @@
 package org.cwowhappy.study.algorithm;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -19,10 +20,12 @@ public class TestSortAlgorithm {
     public static List<TestCase> testCases = List.of(
             new TestCase(new int[]{5, 4, 3, 2, 1}, new int[]{1, 2, 3, 4, 5}),
             new TestCase(new int[]{1, 2, 3, 4, 5}, new int[]{1, 2, 3, 4, 5}),
-            new TestCase(new int[]{10, 9, 8, 7, 6, 5, 4, 3, 2, 1}, new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10})
+            new TestCase(new int[]{10, 9, 8, 7, 6, 5, 4, 3, 2, 1}, new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}),
+            new TestCase(new int[]{10, 8, 6, 4, 2, 9, 7, 5, 3, 1}, new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10})
     );
 
     @Test
+    @DisplayName("冒泡算法测试")
     public void testBubbleSort() {
         for (TestCase testCase : testCases) {
             int[] values = testCase.originValues();
@@ -32,6 +35,7 @@ public class TestSortAlgorithm {
     }
 
     @Test
+    @DisplayName("快排算法测试")
     public void testQuickSort() {
         for (TestCase testCase : testCases) {
             int[] values = testCase.originValues();
@@ -41,6 +45,7 @@ public class TestSortAlgorithm {
     }
 
     @Test
+    @DisplayName("归并算法测试")
     public void testMergeSort() {
         for (TestCase testCase : testCases) {
             int[] values = testCase.originValues();
